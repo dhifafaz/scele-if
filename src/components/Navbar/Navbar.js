@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import FirstMenu from './MenuItems/FirstMenu';
 import SecondMenu from './MenuItems/SecondMenu';
 import FourthMenu from './MenuItems/FourthMenu';
-import { BantuanSCeLe } from './MenuItems/BantuanSCeLe';
+import ThirdMenu from './MenuItems/ThirdMenu';
 import {Row, Col} from 'antd';
 
 import './Navbar.css';
@@ -24,7 +24,7 @@ function NavBar () {
             <SecondMenu/>
         </Col>
         <Col>
-            
+            <ThirdMenu/>
         </Col>
         <Col>
             <FourthMenu/>
