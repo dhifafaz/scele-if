@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { AcademicLinks } from './AcademicLinks';
 import {  Menu, Dropdown} from 'antd';
 import {DownOutlined} from '@ant-design/icons';
+import '../Navbar.css'
 
 const Menus = Object.entries(AcademicLinks).map((key) => {
     return (

@@ -12,24 +12,23 @@ import './Navbar.css';
 
 function NavBar () {
     return (
-    <Row className="navbar-wrapper">
-    <header className="navigation">
-        <Col>
-            <a className="home" href="#home" >SCELE-IF</a>
-        </Col>
-        <Col>
+    <Row className="navbar-wrapper" justify="start" align="middle" type="flex">
+        <Col className="home">
+            <a href="#home" id="home-link">SCELE-IF</a>
+        </Col> 
+           
+        <Col className="nav-menus">
             <FirstMenu/>
         </Col>
-        <Col>
+        <Col className="nav-menus">
             <SecondMenu/>
         </Col>
-        <Col>
+        <Col className="nav-menus">
             <ThirdMenu/>
         </Col>
-        <Col>
+        <Col  className="nav-menus">
             <FourthMenu/>
         </Col>
-    </header>
     </Row>
 
 );

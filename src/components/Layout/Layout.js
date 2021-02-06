@@ -8,7 +8,7 @@ import { Layout } from 'antd';
 import BodyOfPage from '../Body/Body'
 import NavBar from '../Navbar/Navbar'
 
-const { Footer, Content, Header } = Layout;
+const { Footer } = Layout;
 
 function Layouts() {
     return (

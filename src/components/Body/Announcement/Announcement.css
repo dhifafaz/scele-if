@@ -90,19 +90,19 @@ h2 {
   color: #555;
   display: block;
   margin-left:7px;
-}
 
+}
+#author-name{
+  color: #966b00 !important;
+  text-decoration: none !important;
+}
 p {
   text-align: left;
   font-size: 15px;
   font-family: 'Ubuntu';
   line-height: 2;
 }
- 
-a{
-  color: #966b00 !important;
-  text-decoration: none !important;
-}
+
 
 .header {
   padding: 0.75rem 1.25rem;

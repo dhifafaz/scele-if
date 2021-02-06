@@ -51,7 +51,7 @@ const autoPostProcess = AnnouncementPosts.Announcements.slice(0,10).map((announc
             <div className="author" >
               <i className="fas fa-arrow-circle-right icon"></i>
               by {' '}  
-              <a href={announcement.link}>{announcement.author}</a>
+              <a href={announcement.link} id="author-name">{announcement.author}</a>
               {' '}{announcement.date}
             </div>
           </div>

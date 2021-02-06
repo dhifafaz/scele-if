@@ -10,7 +10,10 @@
 .navbar {
     width: 100% !important;
     max-width: 100% !important;
+    background:none repeat scroll 0 0 #323A45!important;
+    
 }
+
 	
 @media (min-width: 1200px){
 
