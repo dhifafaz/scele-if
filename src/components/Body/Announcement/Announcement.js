@@ -51,7 +51,7 @@ const autoPostProcess = AnnouncementPosts.Announcements.slice(0,10).map((announc
             <div className="author" >
               <i className="fas fa-arrow-circle-right icon"></i>
               by {' '}  
-              <a href={announcement.link} id="author-name">{announcement.author}</a>
+              <a href={announcement.link} id="link-color">{announcement.author}</a>
               {' '}{announcement.date}
             </div>
           </div>
@@ -62,12 +62,12 @@ const autoPostProcess = AnnouncementPosts.Announcements.slice(0,10).map((announc
         <div>
           <div className="option">
             <div className="command">
-              <a href={announcement.path}>
+              <a href={announcement.path} id="link-color">
                 Permalink
               </a>
             </div>
             <div className="link">
-              <a href={announcement.path}>
+              <a href={announcement.path} id="link-color">
                 View the discussion {' '}
               </a>
               {' '}(0 replies so far)

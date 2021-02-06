@@ -10,7 +10,7 @@ const Menus = Object.entries(AcademicLinks).map((key) => {
     return (
       <Menu.Item key={key[0]} >
         <Link>
-            <Link to={key[1].path}>{key[1].title}</Link>
+            <Link to={key[1].path} id="menu-item-link">{key[1].title}</Link>
         </Link>
       </Menu.Item>
     );
@@ -27,7 +27,7 @@ const menu = () => {
 const firstMenu =()=> (
 
         <Dropdown overlay={menu}>
-            <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+            <a className="ant-dropdown-link" onClick={e => e.preventDefault()} id="link-color-nav">
                 Academic Links <DownOutlined />
             </a>
         </Dropdown>    

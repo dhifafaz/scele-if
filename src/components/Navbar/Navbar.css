@@ -20,18 +20,30 @@
 	font-weight: 200;
 	height: 50px;
 }
-.nav-menus{
+#link-color-home{
+	color: #fff!important;
+    text-shadow: none;	
+}
+
+#link-color-nav {
+	color: #fff !important;
+	height: 100%;
 	color: #fff!important;
     text-shadow: none;
-    padding: 10px 18px;
+	padding: 17px 18px 17px 18px;
 }
-#home-link {
-		color: #fff !important;
+#link-color-nav:hover{
+	color: #fff;
+    text-decoration: none;
+	background-color: #c48f00;
+	height: 100%;
+	
 }
 @media (max-width: 979px){
 .nav-menus{
     padding-left: 20px;
 	border-radius: 0;
 	width: 100%;
+	margin-bottom: 2px;
 }
 }

@@ -14,19 +14,19 @@ function NavBar () {
     return (
     <Row className="navbar-wrapper" justify="start" align="middle" type="flex">
         <Col className="home">
-            <a href="#home" id="home-link">SCELE-IF</a>
+            <a href="#home" id="link-color-home">SCELE-IF</a>
         </Col> 
            
-        <Col className="nav-menus">
+        <Col >
             <FirstMenu/>
         </Col>
-        <Col className="nav-menus">
+        <Col >
             <SecondMenu/>
         </Col>
-        <Col className="nav-menus">
+        <Col >
             <ThirdMenu/>
         </Col>
-        <Col  className="nav-menus">
+        <Col >
             <FourthMenu/>
         </Col>
     </Row>
