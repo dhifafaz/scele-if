@@ -8,9 +8,9 @@ import '../Navbar.css'
 
 const Menus = Object.entries(AcademicLinks).map((key) => {
     return (
-      <Menu.Item key={key[0]} >
+      <Menu.Item key={key[0]} id="menu-item" >
         <Link>
-            <Link to={key[1].path} id="menu-item-link">{key[1].title}</Link>
+            <Link to={key[1].path} >{key[1].title}</Link>
         </Link>
       </Menu.Item>
     );
