@@ -2,9 +2,14 @@
     padding: 0;    
     align-items: center!important;
 }
-.row-fluid {  
-    margin: 0 auto;
-    max-width: 90%;
+.body {  
+    margin: auto;
+    max-width: 90%!important;
+    padding-top: 10px;
+}
+.navbar {
+    width: 100% !important;
+    max-width: 100% !important;
 }
 	
 @media (min-width: 1200px){

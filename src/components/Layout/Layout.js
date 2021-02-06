@@ -6,17 +6,22 @@ import './Layout.css'
 import PageHeader from '../PageHeader/PageHeader';
 import { Layout } from 'antd';
 import BodyOfPage from '../Body/Body'
+import NavBar from '../Navbar/Navbar'
 
-const { Header, Footer, Content } = Layout;
+const { Footer, Content, Header } = Layout;
 
 function Layouts() {
     return (
         <Aux >
-        	<PageHeader/>
-					<Content>Navbar</Content>
-					<Content style={{maxWidth : "90%",background : "none !important"}} className="row-fluid">
-					 <BodyOfPage/>
-					</Content>
+        	<div className="headers">
+				<PageHeader/>
+			</div>
+			<div className="navbar">
+				<NavBar/>
+			</div>
+			<div className="body">
+				<BodyOfPage/>
+			</div>
       		<Footer>Footer</Footer>
     	
         </Aux>

@@ -18,7 +18,7 @@ const ShortenedText = ({text, length = 50}) => {
         <p>
           {shortenText ? `${text.slice(0, 295)}....` : text  }
         </p>
-        <a style={{ color: "#966b00", cursor: "pointer" }}
+        <a href="/"  style={{ color: "#966b00", cursor: "pointer" }}
           onClick = {() => setShortenText(!shortenText) }
           >
         &nbsp; {shortenText ? "Read the rest of this topic " : "Less" }
@@ -36,12 +36,12 @@ const ShortenedText = ({text, length = 50}) => {
 const autoPostProcess = AnnouncementPosts.Announcements.slice(0,10).map((announcement, index) => {
 	return(
     <>
-       <a id={index}></a>
+       <a href="/" id={index}/>
     <Card id="post-display" border="none" style={{ width: '100%' }} className="card" key={index}>
         <div className="header" >
           <div className="left-picture">
             <a href="/">
-              <img className="user-picture" src={DefaultPicture}/>
+              <img className="user-picture" src={DefaultPicture} alt="default-user"/>
             </a>
           </div>
           <div className="topic">
