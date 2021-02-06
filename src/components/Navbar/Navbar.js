@@ -17,16 +17,16 @@ function NavBar () {
             <a href="#home" id="link-color-home">SCELE-IF</a>
         </Col> 
            
-        <Col >
-            <FirstMenu/>
+        <Col className="nav-menus" >
+            <FirstMenu />
         </Col>
-        <Col >
+        <Col className="nav-menus">
             <SecondMenu/>
         </Col>
-        <Col >
+        <Col className="nav-menus">
             <ThirdMenu/>
         </Col>
-        <Col >
+        <Col className="nav-menus">
             <FourthMenu/>
         </Col>
     </Row>
